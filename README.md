@@ -19,7 +19,9 @@ Scanner needed for user input (userChoice)
 
 ## Human Guesser
 ```
-For the Human Guesser, the computer will generate a random number and the user will have to guess. After a number is guessed the computer will say if the number is too low, too high, or correct. User will only have a set number of tries to guess the correct number.
+For the Human Guesser, the computer will generate a random number and the user will have to guess.
+After a number is guessed the computer will say if the number is too low, too high, or correct.
+User will only have a set number of tries to guess the correct number.
 
 Generate a random number (1 - 100) and store it in correctNum
 Scanner need for user's guess input which will be stored in userGuess
@@ -48,6 +50,9 @@ turns = 5:
 
 ## Computer Guesser
 ```
-For the Computer Guesser, the user will come up with a random number (1 - 100) and the computer will guess what that number is. The user will be able to tell the computer if the guess is too low, too high, or correct. The computer will be able to take that "too low" or "too high" result and adjust the numbers it can guess. Same as the human guesser the computer will have a set numbers of tries to guess the correct number.
+For the Computer Guesser, the user will come up with a random number (1 - 100) and the computer will guess what that number is.
+The user will be able to tell the computer if the guess is too low, too high, or correct.
+The computer will be able to take that "too low" or "too high" result and adjust the numbers it can guess.
+Same as the human guesser the computer will have a set numbers of tries to guess the correct number.
 
 ```
