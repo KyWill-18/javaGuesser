@@ -27,15 +27,18 @@ Generate a random number (1 - 100) and store it in correctNum
 Scanner need for user's guess input which will be stored in userGuess
 
 while keepGoing:
+
+try{ 
+
 if...
 userGuess < correctNum:
   print "too low."
-  add +1 to turns
+  add +1 to tries
 
 else if...
 userGuess > correctNum:
   print "too high."
-  add +1 to turns
+  add +1 to tries
 
 userGuess = correctNum:
   print "you guessed the right number! good job!"
@@ -43,7 +46,7 @@ userGuess = correctNum:
 
 turns = 5:
   keepGoing = false
-  print "oh no! you ran out of turns"
+  print "oh no! you ran out of tries"
 
 ```
 
@@ -55,4 +58,21 @@ The user will be able to tell the computer if the guess is too low, too high, or
 The computer will be able to take that "too low" or "too high" result and adjust the numbers it can guess.
 Same as the human guesser the computer will have a set numbers of tries to guess the correct number.
 
+Low 1
+High 100
+
+if...
+compGuess < userNum:
+  add +1 to tries
+
+else if...
+compGuess > UserNum:
+  add +1 to tries
+
+compGuess = UserNum:
+  keepGoing = false
+
+turns = 5:
+  print "oh no! i ran out of tries! good game"
+  keepGoing = false
 ```
